@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">사진편집기</string>
+    <string name="site_url">https://unatavel.github.io/doyun/</string>
+    <string name="error_title">인터넷에 연결할 수 없습니다</string>
+    <string name="error_message">연결 상태를 확인한 뒤 다시 시도해 주세요.</string>
+    <string name="retry">다시 시도</string>
+    <string name="download_started">다운로드를 시작합니다</string>
+    <string name="download_complete">다운로드가 완료되었습니다</string>
+    <string name="file_chooser_missing">파일을 열 수 있는 앱이 없습니다</string>
+</resources>
