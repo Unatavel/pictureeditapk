@@ -26,10 +26,10 @@ git remote add origin https://github.com/USER/REPO.git
 git push -u origin main
 ```
 
-3. GitHub 저장소의 **Actions** 탭에서 `Build APK` 워크플로가 끝날 때까지 기다립니다.
-4. 성공한 실행을 연 뒤 **Artifacts**에서 `PhotoEditor-apk`를 받습니다.
-   - `PhotoEditor-debug.apk`: 바로 설치해서 쓰는 용도
-   - `PhotoEditor-release.apk`: 같은 서명으로 만든 릴리스 빌드
+3. GitHub 저장소의 **Actions** 탭에서 `Build Android APK` 워크플로가 끝날 때까지 기다립니다.
+4. 성공한 실행을 연 뒤 **Artifacts**에서 APK를 각각 받습니다.
+   - `photoeditor-debug`: 바로 설치해서 쓰는 용도
+   - `photoeditor-release`: 같은 서명으로 만든 릴리스 빌드
 5. 휴대폰에서 **알 수 없는 출처** 설치를 허용한 뒤 APK를 설치합니다.
 
 Actions 탭의 **Run workflow**로 언제든 다시 빌드할 수 있습니다.
